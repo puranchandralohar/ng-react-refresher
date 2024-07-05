@@ -26,9 +26,29 @@
 
 // Props Drilling - Passing the props from parent to child to grandchild and so on.
 
+// State - State is used to store the data in the component. 
+// It is mutable i.e. it can be changed in the component.
+
+
+
 // Hooks - Hooks are some functions which are used to add the state and lifecycle methods in the functional components.
 
 // useState - we can cretae, update a state variable
+// useEffect - we can perform the actions at the time of the component creation,
+//  updation and deletion.
 
+
+// Virtual DOM - 
+// Virtual DOM is the copy of the actual DOM. 
+// It is used to perform the actions on the actual DOM without affecting 
+// the actual DOM.
 
 //Lifecycle methods - These are the methods which are used to perform the actions at the time of the component creation, updation and deletion.
+
+// Mounting - Component is created and render on the screen or added to the dom.
+// Updating - Component is updated and re-rendered on the screen.
+// Unmounting - Component is removed from the screen or deleted from the dom.
+
+//componentDidMount - initial rendering
+//componentDidUpdate -updated
+//componentWillUnmount - removed
